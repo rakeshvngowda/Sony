@@ -10,4 +10,12 @@ def decor(func):
 def div(a, b):
     print(a / b)
     
+# closure
+def outer():
+    x = 10
+    def inner():
+        print(x)
+    return inner
+
+    
     
