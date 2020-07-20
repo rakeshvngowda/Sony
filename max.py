@@ -1,2 +1,3 @@
-def max():
-	print("max num is max")
+def div(a, b):
+    return a / b
+    
